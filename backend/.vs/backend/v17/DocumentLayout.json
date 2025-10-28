@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\USER\\OneDrive\\Documentos\\GitHub\\Gamificacao-TEA\\backend\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{528E3C7D-DF4E-402F-ADEF-E8095D27BBE0}|backend\\backend.csproj|c:\\users\\user\\onedrive\\documentos\\github\\gamificacao-tea\\backend\\backend\\models\\terapeuta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{528E3C7D-DF4E-402F-ADEF-E8095D27BBE0}|backend\\backend.csproj|solutionrelative:backend\\models\\terapeuta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{528E3C7D-DF4E-402F-ADEF-E8095D27BBE0}|backend\\backend.csproj|c:\\users\\user\\onedrive\\documentos\\github\\gamificacao-tea\\backend\\backend\\models\\clinica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{528E3C7D-DF4E-402F-ADEF-E8095D27BBE0}|backend\\backend.csproj|solutionrelative:backend\\models\\clinica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Terapeuta.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documentos\\GitHub\\Gamificacao-TEA\\backend\\backend\\Models\\Terapeuta.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\Terapeuta.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documentos\\GitHub\\Gamificacao-TEA\\backend\\backend\\Models\\Terapeuta.cs",
+              "RelativeToolTip": "backend\\Models\\Terapeuta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T17:42:56.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Clinica.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documentos\\GitHub\\Gamificacao-TEA\\backend\\backend\\Models\\Clinica.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\Clinica.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documentos\\GitHub\\Gamificacao-TEA\\backend\\backend\\Models\\Clinica.cs",
+              "RelativeToolTip": "backend\\Models\\Clinica.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T16:53:15.288Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
