@@ -3,12 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\OneDrive\\Documentos\\GitHub\\Gamificacao-TEA\\backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{528E3C7D-DF4E-402F-ADEF-E8095D27BBE0}|backend\\backend.csproj|c:\\users\\user\\onedrive\\documentos\\github\\gamificacao-tea\\backend\\backend\\controllers\\terapeutacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{528E3C7D-DF4E-402F-ADEF-E8095D27BBE0}|backend\\backend.csproj|solutionrelative:backend\\controllers\\terapeutacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{528E3C7D-DF4E-402F-ADEF-E8095D27BBE0}|backend\\backend.csproj|c:\\users\\user\\onedrive\\documentos\\github\\gamificacao-tea\\backend\\backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{528E3C7D-DF4E-402F-ADEF-E8095D27BBE0}|backend\\backend.csproj|solutionrelative:backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{528E3C7D-DF4E-402F-ADEF-E8095D27BBE0}|backend\\backend.csproj|c:\\users\\user\\onedrive\\documentos\\github\\gamificacao-tea\\backend\\backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{528E3C7D-DF4E-402F-ADEF-E8095D27BBE0}|backend\\backend.csproj|solutionrelative:backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{528E3C7D-DF4E-402F-ADEF-E8095D27BBE0}|backend\\backend.csproj|c:\\users\\user\\onedrive\\documentos\\github\\gamificacao-tea\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{528E3C7D-DF4E-402F-ADEF-E8095D27BBE0}|backend\\backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{528E3C7D-DF4E-402F-ADEF-E8095D27BBE0}|backend\\backend.csproj|c:\\users\\user\\onedrive\\documentos\\github\\gamificacao-tea\\backend\\backend\\models\\terapeuta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{528E3C7D-DF4E-402F-ADEF-E8095D27BBE0}|backend\\backend.csproj|solutionrelative:backend\\models\\terapeuta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{528E3C7D-DF4E-402F-ADEF-E8095D27BBE0}|backend\\backend.csproj|c:\\users\\user\\onedrive\\documentos\\github\\gamificacao-tea\\backend\\backend\\models\\clinica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{528E3C7D-DF4E-402F-ADEF-E8095D27BBE0}|backend\\backend.csproj|solutionrelative:backend\\models\\clinica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{528E3C7D-DF4E-402F-ADEF-E8095D27BBE0}|backend\\backend.csproj|c:\\users\\user\\onedrive\\documentos\\github\\gamificacao-tea\\backend\\backend\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{528E3C7D-DF4E-402F-ADEF-E8095D27BBE0}|backend\\backend.csproj|solutionrelative:backend\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{528E3C7D-DF4E-402F-ADEF-E8095D27BBE0}|backend\\backend.csproj|c:\\users\\user\\onedrive\\documentos\\github\\gamificacao-tea\\backend\\backend\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{528E3C7D-DF4E-402F-ADEF-E8095D27BBE0}|backend\\backend.csproj|solutionrelative:backend\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{528E3C7D-DF4E-402F-ADEF-E8095D27BBE0}|backend\\backend.csproj|c:\\users\\user\\onedrive\\documentos\\github\\gamificacao-tea\\backend\\backend\\controllers\\clinicacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{528E3C7D-DF4E-402F-ADEF-E8095D27BBE0}|backend\\backend.csproj|solutionrelative:backend\\controllers\\clinicacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{528E3C7D-DF4E-402F-ADEF-E8095D27BBE0}|backend\\backend.csproj|c:\\users\\user\\onedrive\\documentos\\github\\gamificacao-tea\\backend\\backend\\migrations\\20260123014324_removepacienteefase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{528E3C7D-DF4E-402F-ADEF-E8095D27BBE0}|backend\\backend.csproj|solutionrelative:backend\\migrations\\20260123014324_removepacienteefase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{528E3C7D-DF4E-402F-ADEF-E8095D27BBE0}|backend\\backend.csproj|c:\\users\\user\\onedrive\\documentos\\github\\gamificacao-tea\\backend\\backend\\models\\fase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{528E3C7D-DF4E-402F-ADEF-E8095D27BBE0}|backend\\backend.csproj|solutionrelative:backend\\models\\fase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{528E3C7D-DF4E-402F-ADEF-E8095D27BBE0}|backend\\backend.csproj|c:\\users\\user\\onedrive\\documentos\\github\\gamificacao-tea\\backend\\backend\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{528E3C7D-DF4E-402F-ADEF-E8095D27BBE0}|backend\\backend.csproj|solutionrelative:backend\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +58,162 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Terapeuta.cs",
               "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documentos\\GitHub\\Gamificacao-TEA\\backend\\backend\\Models\\Terapeuta.cs",
               "RelativeDocumentMoniker": "backend\\Models\\Terapeuta.cs",
               "ToolTip": "C:\\Users\\USER\\OneDrive\\Documentos\\GitHub\\Gamificacao-TEA\\backend\\backend\\Models\\Terapeuta.cs",
               "RelativeToolTip": "backend\\Models\\Terapeuta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-26T17:42:56.307Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documentos\\GitHub\\Gamificacao-TEA\\backend\\backend\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "backend\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documentos\\GitHub\\Gamificacao-TEA\\backend\\backend\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "backend\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T01:54:41.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documentos\\GitHub\\Gamificacao-TEA\\backend\\backend\\Program.cs",
+              "RelativeDocumentMoniker": "backend\\Program.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documentos\\GitHub\\Gamificacao-TEA\\backend\\backend\\Program.cs",
+              "RelativeToolTip": "backend\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T13:33:12.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documentos\\GitHub\\Gamificacao-TEA\\backend\\backend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "backend\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documentos\\GitHub\\Gamificacao-TEA\\backend\\backend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "backend\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvxEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-07T13:39:22.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "backend",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documentos\\GitHub\\Gamificacao-TEA\\backend\\backend\\backend.csproj",
+              "RelativeDocumentMoniker": "backend\\backend.csproj",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documentos\\GitHub\\Gamificacao-TEA\\backend\\backend\\backend.csproj",
+              "RelativeToolTip": "backend\\backend.csproj",
+              "ViewState": "AgIAABUAAAAAAAAAAAAwPQgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-23T01:55:45.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TerapeutaController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documentos\\GitHub\\Gamificacao-TEA\\backend\\backend\\Controllers\\TerapeutaController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\TerapeutaController.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documentos\\GitHub\\Gamificacao-TEA\\backend\\backend\\Controllers\\TerapeutaController.cs",
+              "RelativeToolTip": "backend\\Controllers\\TerapeutaController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwBMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T02:16:44.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documentos\\GitHub\\Gamificacao-TEA\\backend\\backend\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "backend\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documentos\\GitHub\\Gamificacao-TEA\\backend\\backend\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "backend\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T13:26:48.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Clinica.cs",
               "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documentos\\GitHub\\Gamificacao-TEA\\backend\\backend\\Models\\Clinica.cs",
               "RelativeDocumentMoniker": "backend\\Models\\Clinica.cs",
               "ToolTip": "C:\\Users\\USER\\OneDrive\\Documentos\\GitHub\\Gamificacao-TEA\\backend\\backend\\Models\\Clinica.cs",
               "RelativeToolTip": "backend\\Models\\Clinica.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T16:53:15.288Z",
+              "WhenOpened": "2026-01-23T02:17:09.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClinicaController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documentos\\GitHub\\Gamificacao-TEA\\backend\\backend\\Controllers\\ClinicaController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\ClinicaController.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documentos\\GitHub\\Gamificacao-TEA\\backend\\backend\\Controllers\\ClinicaController.cs",
+              "RelativeToolTip": "backend\\Controllers\\ClinicaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T02:16:20.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20260123014324_RemovePacienteEFase.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documentos\\GitHub\\Gamificacao-TEA\\backend\\backend\\Migrations\\20260123014324_RemovePacienteEFase.cs",
+              "RelativeDocumentMoniker": "backend\\Migrations\\20260123014324_RemovePacienteEFase.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documentos\\GitHub\\Gamificacao-TEA\\backend\\backend\\Migrations\\20260123014324_RemovePacienteEFase.cs",
+              "RelativeToolTip": "backend\\Migrations\\20260123014324_RemovePacienteEFase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T01:54:40.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Paciente.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documentos\\GitHub\\Gamificacao-TEA\\backend\\backend\\Models\\Paciente.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\Paciente.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documentos\\GitHub\\Gamificacao-TEA\\backend\\backend\\Models\\Paciente.cs",
+              "RelativeToolTip": "backend\\Models\\Paciente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T12:32:49.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Fase.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documentos\\GitHub\\Gamificacao-TEA\\backend\\backend\\Models\\Fase.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\Fase.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documentos\\GitHub\\Gamificacao-TEA\\backend\\backend\\Models\\Fase.cs",
+              "RelativeToolTip": "backend\\Models\\Fase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T12:56:50.002Z",
               "EditorCaption": ""
             }
           ]

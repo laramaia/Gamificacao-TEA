@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "backend.Controllers.ClinicaController",
+    "Method": "Index",
+    "RelativePath": "api/Clinica",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "backend.Controllers.TerapeutaController",
+    "Method": "CriarTerapeuta",
+    "RelativePath": "api/Terapeuta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "terapeuta",
+        "Type": "backend.Models.Terapeuta",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
