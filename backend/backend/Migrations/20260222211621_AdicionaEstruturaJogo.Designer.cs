@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using backend.Data;
@@ -11,9 +12,11 @@ using backend.Data;
 namespace backend.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260222211621_AdicionaEstruturaJogo")]
+    partial class AdicionaEstruturaJogo
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -29,10 +32,6 @@ namespace backend.Migrations
                         .HasColumnType("integer");
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("FaseId"));
-
-                    b.Property<string>("Enunciado")
-                        .IsRequired()
-                        .HasColumnType("text");
 
                     b.Property<int>("EstrelasParaAvancar")
                         .HasColumnType("integer");
@@ -71,8 +70,6 @@ namespace backend.Migrations
                         .HasColumnType("text");
 
                     b.HasKey("OpcaoId");
-
-                    b.HasIndex("FaseId");
 
                     b.ToTable("Opcoes");
                 });
@@ -178,15 +175,6 @@ namespace backend.Migrations
                     b.ToTable("Terapeutas");
                 });
 
-            modelBuilder.Entity("backend.Models.Opcao", b =>
-                {
-                    b.HasOne("backend.Models.Fase", null)
-                        .WithMany("Opcoes")
-                        .HasForeignKey("FaseId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
             modelBuilder.Entity("backend.Models.ProgressoJogo", b =>
                 {
                     b.HasOne("backend.Models.Fase", "fase")
@@ -204,11 +192,6 @@ namespace backend.Migrations
                     b.Navigation("fase");
 
                     b.Navigation("paciente");
-                });
-
-            modelBuilder.Entity("backend.Models.Fase", b =>
-                {
-                    b.Navigation("Opcoes");
                 });
 #pragma warning restore 612, 618
         }

@@ -31,4 +31,27 @@ public class TerapeutaController : ControllerBase
                 terapeuta = terapeuta
             });
     }
+
+    [HttpGet("listar")]
+    public IActionResult ListarTerapeuta()
+        {
+            var lista = _db.Terapeutas.ToList();
+
+            return Ok(lista);
+        }
+
+    [HttpDelete("deletar/{id}")]
+    public IActionResult DeletarTerapeuta([FromRoute] int id)
+    {
+        var terapeuta = _db.Terapeutas.Find(id);
+
+        if (terapeuta == null)
+        {
+            return NotFound("Terapeuta não encontrado (a).");
+        }
+
+        _db.Remove(terapeuta);
+        _db.SaveChanges();
+        return Ok();
+    }
 }
