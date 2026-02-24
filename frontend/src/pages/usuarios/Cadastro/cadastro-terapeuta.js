@@ -32,7 +32,6 @@ function CadastroTerapeuta() {
     setMensagem("Enviando...");
 
     try {
-      // Verifique se o seu api.js tem a baseURL: "https://localhost:7230/api"
       const response = await api.post("Terapeuta/inserir", form);
 
       setMensagem("Terapeuta cadastrado com sucesso!");
@@ -120,6 +119,12 @@ function CadastroTerapeuta() {
         </div>
         <Button texto="Cadastrar" />
       </form>
+      <p className={styles.link}>
+        Já possui conta?{" "}
+        <span>
+          <Link to="/">Entrar</Link>
+        </span>
+      </p>
 
       {mensagem && <p className={styles.mensagem}>{mensagem}</p>}
     </div>

@@ -26,6 +26,17 @@
   border-radius: 50%;
 }
 
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Ajuste este valor para aumentar/diminuir o espaço */
+  width: 100%;
+}
+
+.form button {
+  margin-top: 10px; /* Espaço extra antes do botão se desejar */
+}
+
 .title {
   font-size: 30px;
   font-weight: 700;
@@ -36,7 +47,7 @@
 /* espaçamento entre os elementos */
 .authContainer > *:not(:first-child) {
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 36px;
 }
 
 .link {
