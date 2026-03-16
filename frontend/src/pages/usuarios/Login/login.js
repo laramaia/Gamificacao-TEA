@@ -22,7 +22,7 @@ function Login() {
       // Ajuste 'response.data.token' conforme o retorno da sua API
       localStorage.setItem("userToken", response.data.token);
       console.log("Login realizado:", response.data.message);
-      navigate("/dashboardGame"); // Exemplo: manda para a tela principal
+      navigate("/listar-pacientes"); // Exemplo: manda para a tela principal
     } catch (err) {
       setErro(err.response?.data?.message || "Erro ao fazer login");
     }
