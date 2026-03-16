@@ -14,14 +14,11 @@ import DetalhePacientes from "./pages/dashboard/Pacientes/DetalhePacientes/detal
 // Componente auxiliar para gerenciar a lógica da SideBar
 function AppContent() {
   const location = useLocation();
-
-  // Define as rotas onde a SideBar NÃO deve aparecer (Login e Cadastro)
   const esconderSideBar =
     location.pathname === "/" || location.pathname === "/cadastro";
 
   return (
     <div className="App" style={{ display: "flex", minHeight: "100vh" }}>
-      {/* Renderização condicional: se não for login/cadastro, mostra a SideBar */}
       {!esconderSideBar && <SideBar />}
 
       <main
@@ -29,7 +26,7 @@ function AppContent() {
           flexGrow: 1,
           backgroundColor: "#1a1a2e",
           overflowY: "auto",
-          padding: esconderSideBar ? "0px" : "20px", // Remove o padding no login se quiser tela cheia
+          padding: esconderSideBar ? "0px" : "20px", 
         }}
       >
         <Routes>
