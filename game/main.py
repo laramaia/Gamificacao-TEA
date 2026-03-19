@@ -5,7 +5,7 @@ import sys
 sys.dont_write_bytecode = True
 
 pygame.init()
-screen = pygame.display.set_mode((1280, 720))
+screen = pygame.display.set_mode((1280, 680))
 clock = pygame.time.Clock()
 
 tela_atual = Mapa()
@@ -15,7 +15,9 @@ while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
-        tela_atual.handle_event(event)
+        nova_tela = tela_atual.handle_event(event)
+        if nova_tela is not None:
+            tela_atual = nova_tela
 
     tela_atual.update()
     tela_atual.desenhar(screen)
