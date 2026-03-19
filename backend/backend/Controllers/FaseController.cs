@@ -7,7 +7,7 @@ namespace backend.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public class FaseController : Controller
+public class FaseController : ControllerBase
 {
     private readonly AppDbContext _db;
 
@@ -19,21 +19,40 @@ public class FaseController : Controller
     [HttpPost("inserir")]
     public IActionResult CriarFase([FromBody] Fase fase)
     {
+        if (fase == null)
+            return BadRequest("Dados da fase inválidos.");
+
         _db.Fases.Add(fase);
         _db.SaveChanges();
 
-        return Created(string.Empty,
-        new
-        { 
-            mensagem = "Fase cadastrada com sucesso!", 
-            fase = fase
-        });
+        return CreatedAtAction(
+            nameof(BuscarPorId),
+            new { id = fase.FaseId },
+            fase
+        );
     }
 
     [HttpGet("listar")]
     public IActionResult ListarFases()
     {
-        var fases = _db.Fases.Include(f => f.Opcoes).ToList();
+        var fases = _db.Fases
+            .Include(f => f.Opcoes)
+            .OrderBy(f => f.Ordem)
+            .ToList();
+
         return Ok(fases);
+    }
+
+    [HttpGet("{id}")]
+    public IActionResult BuscarPorId(int id)
+    {
+        var fase = _db.Fases
+            .Include(f => f.Opcoes)
+            .FirstOrDefault(f => f.FaseId == id);
+
+        if (fase == null)
+            return NotFound();
+
+        return Ok(fase);
     }
 }

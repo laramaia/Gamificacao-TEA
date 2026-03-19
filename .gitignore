@@ -1,3 +1,24 @@
+# Python
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
+
+# Virtual env
+venv/
+.venv/
+
+# VS Code
 .vscode/
+
+# Visual Studio (.NET)
+.vs/
+bin/
+obj/
+
+# Logs
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
