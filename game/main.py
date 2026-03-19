@@ -1,13 +1,18 @@
+import sys
 import pygame
 from telas.mapa import Mapa
-import sys
 
 sys.dont_write_bytecode = True
 
 pygame.init()
-screen = pygame.display.set_mode((1280, 680))
-clock = pygame.time.Clock()
 
+LARGURA = 1280
+ALTURA = 680
+
+screen = pygame.display.set_mode((LARGURA, ALTURA))
+pygame.display.set_caption("Gamificação TEA")
+
+clock = pygame.time.Clock()
 tela_atual = Mapa()
 
 running = True
@@ -15,6 +20,8 @@ while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
+            continue
+
         nova_tela = tela_atual.handle_event(event)
         if nova_tela is not None:
             tela_atual = nova_tela
